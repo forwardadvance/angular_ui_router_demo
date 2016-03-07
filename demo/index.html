@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scope</title>
+    <script src="angular.js"></script>
+    <script src="ui-router.js"></script>
+    <script src="demo.js"></script>
+    <base href="/" />
+  </head>
+  <body ng-app="app">
+
+    <h1>Lovely restaurant</h1>
+    <a ui-sref="home">home</a>
+    <a ui-sref="menu.pizza">menu</a>
+
+    <div ui-view></div>
+  </body>
+</html>
